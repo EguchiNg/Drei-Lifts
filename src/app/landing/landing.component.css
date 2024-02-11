@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+}
+
+.splatter {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    background-color: black;
+    transform: rotate(90deg);
+}
+
+.drei {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.potential-text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:25%;
+    left: 0;
+    font-size: 50px;
+}
+
+.train-text {
+    position: absolute;
+}
