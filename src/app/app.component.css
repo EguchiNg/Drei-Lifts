@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    color: white;
+}
+
+.landing {
+    position: relative;
+    top: 0
+}
+
+.about {
+    position: absolute;
+    top: 1;
+}

@@ -1,29 +1,50 @@
 .container {
     position: relative;
+    background-color: black;
+    width: 1440px;
+    height: 1440px;
 }
-
 .splatter {
     position: absolute;
     top: 0;
-    left: -10%;
+    left: 20%;
     background-color: black;
     transform: rotate(90deg);
+    object-fit: cover;
 }
 
 .drei {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 30%;
+    object-fit: cover;
 }
 
 .potential-text {
     color: rgb(255, 255, 255);
-    position: absolute;
-    top:25%;
-    left: 0;
-    font-size: 50px;
+    position: relative;
+    top: 0;
+    left: 0%;
+    font-size: 100px;
 }
 
 .train-text {
+    color: rgb(255, 255, 255);
     position: absolute;
+    top: 350px;
+    left: 30px;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.connect {
+    position: absolute;
+    background-color: red;
+    font-size: large;
+    top: 600px;
+    left: 70px;
+    z-index: 2;
+    font: inherit;
+    border: none;
+    cursor: pointer;
 }
