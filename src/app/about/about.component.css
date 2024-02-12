@@ -1,5 +1,14 @@
-.version {
+.container {
+    height: 50%;
+    width: 100%;
+}
+
+.version-of-you {
     position: absolute;
-    left: 500px;
-    top: 100px;
+    left: 50%;
+    top: 10%;
+}
+
+.header {
+  font-size: 100px;
 }
