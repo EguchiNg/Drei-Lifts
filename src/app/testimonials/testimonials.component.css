@@ -1,0 +1,17 @@
+.card {
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: 24;
+    background-color: #171717;
+}
+
+.testimonial-name {
+    color: grey;
+}
+
+
+.card-container {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -5,7 +5,7 @@
     height: 100%;
 }
 
-.images {
+#images {
     position:relative;
     height: 100%;
     width: auto;
@@ -28,10 +28,7 @@
     animation: fadeIn .5s ease forwards;
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0.5; }
-    100% { opacity: 1 };
-}
+
 
 .drei {
     position: absolute;
@@ -91,9 +88,14 @@
     background-color: #B91C1C;
 }
 
+#socials {
+    position: relative;
+    left: 60%;
+}
+
 .insta-link {
-    position: absolute;
-    left: 70%;
+    position: relative;
+    left: 0;
     z-index: 5;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
@@ -101,10 +103,15 @@
 }
 
 .tiktok-link {
-    position: absolute;
-    left: 80%;
+    position: relative;
+    left: 12px;
     z-index: 5;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
     animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.5; }
+    100% { opacity: 1 };
 }
